@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/task_description"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" />
+    <DatePicker
+        android:id="@+id/task_deadlineBy"
+        android:layout_width="100dp"
+        android:datePickerMode="spinner"
+        android:layout_height="match_parent"/>
+    <CheckBox
+        android:id="@+id/task_success"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"/>
+</android.widget.LinearLayout>

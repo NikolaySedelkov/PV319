@@ -17,7 +17,7 @@ public class ClickerActivity extends AppCompatActivity {
     TextView labelCounter;
     Button incrementCounterButton;
 
-    // класс AppCompatActivity содережит м реализуем методы жизненого цикла приложения
+    // класс AppCompatActivity содержит м реализуем методы жизненного цикла приложения
 
     // Метод, который вызывается в момент когда приложения ставят на паузу(сворачивают)
     @Override
